@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email validation</title>
+</head>
+<body onload="document.form1.text1.focus()">
+    <div class="container">
+        <form action="" method="post" class="demo" name="form1">
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="text" name="text1" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" class="form-control" name="pass" placeholder="Password">
+            </div>
+            <input type="submit" name="submit" onclick="validateEmail(document.form1.text1)">
+            
+        </form>
+    </div>
+
+    <script type="text/javascript" src="5_email_validation.js"></script>
+</body>
+</html>

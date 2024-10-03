@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var letters=["a","b","c","d"]
+        document.write(letters);
+        document.write("<br>");
+
+        document.write(letters[2]);
+        document.write("<br>");
+
+        letters[0]="e";
+        document.write(letters);
+        document.write("<br>");
+
+        var x=letters.length;
+        document.write(x);
+        document.write("<br>");
+        document.write("<br>");
+
+        for(var i=0;i<x;i++)
+        {
+            document.write(letters[i]+"<br>");
+        }
+
+        document.write("<br>");
+        letters[4]="e";
+        document.write(letters);
+        document.write("<br>");
+        letters.pop();
+        document.write(letters)
+    </script>
+</body>
+</html>

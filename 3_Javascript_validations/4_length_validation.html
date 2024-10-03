@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length validation</title>
+    <script type="text/javascript" src="4_length_validation.js"></script>
+</head>
+<body onload='document.form1.text1.focus()'>
+    <div class="container">
+        <form action="" method="post" class="demo" name="form1">
+            <div class="form-group">
+                <label for="">Enter your Id between 6 to 8</label>
+                <input type="text" name="text1" class="form-control" placeholder="Please enter userid">
+            </div>
+
+            <input type="submit" name="submit" onclick="stringlength(document.form1.text1,6,8)">
+        </form>
+    </div>
+    
+</body>
+</html>
